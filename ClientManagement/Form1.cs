@@ -15,6 +15,8 @@ namespace ClientManagement
         public Form1()
         {
             InitializeComponent();
+            String test = "Hello World";
+            textBox1.Text = test.ToUpper();
         }
     }
 }
